@@ -9,7 +9,7 @@ def main():
         with conn.cursor() as cursor:
             # 3.执行SQL得到结果
             result = cursor.execute(
-                'insert into tb_dept values (10, "销售1部", "重庆")'
+                'insert into tb_dept values (20, "销售2部", "重庆")'
             )
             if result == 1:
                 print('添加成功！')
